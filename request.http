@@ -2,6 +2,6 @@ Post http://localhost:3000/todo
 Content-Type: application/json
 
 {
-    "title": "Nest js",
+    "title": 344,
     "desription": "description Nest js"
 }
