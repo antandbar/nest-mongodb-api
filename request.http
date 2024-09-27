@@ -2,6 +2,23 @@ Post http://localhost:3000/todo
 Content-Type: application/json
 
 {
-    "title": 344,
+    "title": "Nest js",
     "desription": "description Nest js"
 }
+
+###
+PUT http://localhost:3000/todo/66f3e211938cbd6951e99808
+Content-Type: application/json
+
+{
+    "status": "IN_PROGRESS"
+}
+
+###
+GET http://localhost:3000/todo
+
+###
+GET http://localhost:3000/todo/66f3e211938cbd6951e99808
+
+###
+DELETE http://localhost:3000/todo/66f3e211938cbd6951e99808
